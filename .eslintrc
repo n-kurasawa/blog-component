@@ -1,0 +1,10 @@
+{
+  "plugins": ["react","@typescript-eslint"],
+  "extends": ["plugin:react-hooks/recommended", "plugin:react/recommended" ,"prettier", "plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}
