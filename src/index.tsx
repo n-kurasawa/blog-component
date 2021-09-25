@@ -1,5 +1,5 @@
 import { FC } from "react";
 
-export const helloWorld: FC = () => {
+export const HelloWorld: FC = () => {
   return <div>hello world</div>;
 };
