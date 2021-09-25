@@ -5,6 +5,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "react-jsx",
     "declaration": true,
+    "declarationMap": true,
     "outDir": "./dist",
     "allowJs": true,
     "strict": true,
