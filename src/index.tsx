@@ -1,5 +1,2 @@
-import type { FC } from "react";
-
-export const HelloWorld: FC = () => {
-  return <div>hello world</div>;
-};
+export { PostHeader } from "./components/post-header";
+export { PostBody } from "./components/post-body";
