@@ -1,6 +1,6 @@
 {
   "name": "@n-kurasawa/blog-component",
-  "version": "0.1.13",
+  "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "./dist/index.js",
@@ -13,7 +13,7 @@
     "test": "exit 0"
   },
   "publishConfig": {
-    "access": "restricted",
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
