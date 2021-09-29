@@ -1,0 +1,7 @@
+.post-header-cover-image {
+  @apply mx-auto max-w-4xl mb-8 md:mb-16;
+}
+
+.post-header-date {
+  @apply max-w-4xl mx-auto mb-6 text-lg;
+}

@@ -14,8 +14,7 @@ export default {
     postcss({
       // plugins: require('./postcss.config').plugins,
       plugins: [
-        require("postcss-import"),
-        require("tailwindcss"),
+        require("@tailwindcss/postcss7-compat"),
         require("autoprefixer"),
       ],
       // modules: true,

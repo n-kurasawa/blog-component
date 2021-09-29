@@ -1,0 +1,7 @@
+.cover-image {
+  @apply sm:mx-0;
+}
+
+.cover-image-shadow {
+  @apply shadow-sm;
+}
