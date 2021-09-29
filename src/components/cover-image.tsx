@@ -7,6 +7,9 @@ type Props = {
 };
 
 export const CoverImage: React.FC<Props> = ({ title, src }) => {
+  if (src == "") {
+    return null;
+  }
   return (
     <div className={styles["cover-image"]}>
       <div className={styles["cover-image-shadow"]}>

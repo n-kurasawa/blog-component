@@ -17,7 +17,7 @@ export const PostHeader: React.FC<Props> = ({ title, coverImage, date }) => {
       <div className={styles["post-header-cover-image"]}>
         <CoverImage title={title} src={coverImage} />
       </div>
-      <div className={styles["post-header-cover-date"]}>
+      <div className={styles["post-header-date"]}>
         <DateFormatter dateString={date} />
       </div>
     </>
