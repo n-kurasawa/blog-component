@@ -12,9 +12,11 @@ export const CoverImage: React.FC<Props> = ({ title, src }) => {
   }
   return (
     <div className={styles["cover-image"]}>
-      <div className={styles["cover-image-shadow"]}>
-        <img src={src} alt={`Cover Image for ${title}`} />
-      </div>
+      <img
+        className={styles["cover-image-shadow"]}
+        src={src}
+        alt={`Cover Image for ${title}`}
+      />
     </div>
   );
 };

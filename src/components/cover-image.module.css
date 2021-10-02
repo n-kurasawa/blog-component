@@ -3,5 +3,5 @@
 }
 
 .cover-image-shadow {
-  @apply shadow-sm;
+  @apply shadow-small;
 }
